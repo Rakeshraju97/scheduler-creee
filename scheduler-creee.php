@@ -20,6 +20,8 @@
 
  class scheduler_creee {
     
+    //changed for seconfd commit and push
+
     function __construct(){
         add_action('init', array( $this, 'custom_post_type') );
     }
